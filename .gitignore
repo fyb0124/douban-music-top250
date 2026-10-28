@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物（可通过 --offline 重新生成）
+data/*.db
+data/*.db-journal
+data/douban_top250.csv
+data/stats.json
+output/*.png
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
